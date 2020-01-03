@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WeatherBuddy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col">
+            
+        </div>
+        <div class="col">
+            <img src="images/weatherBuddy.png" />
+        </div>
+        <div class="col">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Team</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class='container'>
+        <h4>Enter a city, click the button, and get a playlist to match the current weather!</h4>
+        <form class="form">
+            <div class="form-group input-group-prepend">
+                <span class="input-group-text">Location</span>
+
+                <input class="form-control" id="location" name="search" type="text" placeholder="City" rows="3"></input>
+            </div>
+
+
+            <a id='submit'
+                href="https://accounts.spotify.com/en/authorize?client_id=4eaca4681191464aa25a67d6a355ce9f&redirect_uri=https://mfskibiel.github.io/WeatherBuddy/&response_type=token"
+                class="btn btn-info">Get my playlist</a>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <h4 class="copyright">&copy; Copyright 2019 WeatherBuddy</h4>
+        </div>
+    </footer>
+    <!-- Keep at bottom so js runs after DOM rendering -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+    <script src='app.js'></script>
+    <script src='main.js'></script>
+</body>
+
+</html>

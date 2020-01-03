@@ -1,0 +1,145 @@
+body {
+    background: url("images/rainybackground.jpg"), #333;
+    background-position: static; 
+    background-size: cover;
+    transition: background-image 1s linear;
+}
+
+h2{
+    font-family: 'McLaren', cursive;
+    font-size: 60px;
+}
+
+.badge-primary{
+
+    background: lightblue;
+}
+.row{
+    background: lightblue;
+    padding: 0px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.logo{
+    float: right;
+}
+img{
+    width: 200px;
+}
+
+.nav{
+    padding-top: 30px;
+    font-family: 'McLaren', cursive;
+    float: right;
+    font-size: 26px;
+}
+
+.nav-link{
+
+    color: white;
+}
+
+.container{
+    background: whitesmoke;
+    border-radius: 25px;
+    padding: 20px;
+
+}
+
+.container1{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+}
+.form-group{
+    padding: 40px;
+    padding-top: 0px;
+    margin: 20px;
+}
+
+#submit{
+    font-size: 26px;
+    margin: 0 auto;
+    font-family: 'McLaren', cursive;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: 'McLaren', cursive; 
+    font-size: 20px;
+}
+
+.bio{
+    background: whitesmoke;
+    opacity: .9;
+    margin: 20px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.spacing {
+    padding-bottom: 20px;
+}
+
+.clear{
+    background: none;
+}
+
+
+/* Algolia */
+
+.algolia-autocomplete {
+    width: 100%;
+  }
+  .algolia-autocomplete .aa-input,
+  .algolia-autocomplete .aa-hint {
+    width: 100%;
+  }
+  .algolia-autocomplete .aa-hint {
+    color: #999;
+  }
+  .algolia-autocomplete .aa-dropdown-menu {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-top: none;
+  }
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+    cursor: pointer;
+    padding: 5px 4px;
+  }
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+    background-color: #b2d7ff;
+  }
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+    font-weight: bold;
+    font-style: normal;
+  }
+
+.playlist{
+    font-size: 30px;
+    font-family: 'McLaren', cursive;
+    padding: 20px;
+}
+
+p{
+    font-family: 'McLaren', cursive;
+    font-size: 18px;
+}
+
+footer {
+    background: lightblue;
+    position: fixed; bottom: 0;
+    width: 100%;
+}
+
+.copyright {
+    font-size:12px;
+    padding: 8px;
+}
